@@ -38,7 +38,7 @@ Motoko Playground is a web-based developer environment for Motoko projects. To u
 
 ### dfx 
 
-dfx is a command-line tool used to create, deploy. and manage projects on ICP. To download and use dfx with this examples repo, run the following commands locally (macOS/Linux systems):
+dfx is a command-line tool used to create, deploy, and manage projects on ICP. To download and use dfx with this examples repo, run the following commands locally (macOS/Linux systems):
 
 ```
 git clone https://github.com/dfinity/examples.git
