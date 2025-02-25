@@ -38,8 +38,8 @@ dfx start --background
 ## Step 3: Create test identities with the commands
 
 ```bash
-dfx identity new --disable-encryption Alice; dfx identity use Alice; export ALICE=$(dfx identity get-principal); 
-dfx identity new --disable-encryption Bob; dfx identity use Bob; export BOB=$(dfx identity get-principal);
+dfx identity new --storage-mode=plaintext Alice; dfx identity use Alice; export ALICE=$(dfx identity get-principal); 
+dfx identity new --storage-mode=plaintext Bob; dfx identity use Bob; export BOB=$(dfx identity get-principal);
 ```
 
 ## Step 4: Deploy basic_dao with the initial test accounts
